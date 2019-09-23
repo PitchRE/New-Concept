@@ -24,7 +24,6 @@
                
                <span><a style="color: green" href="#">Formularz kontaktowy</a></span> <br>
          <font-awesome-icon   icon="phone" />  <span  >&nbsp;48+ 12132356</span>
-     
             </vk-card>
           </div>
         </vk-grid>

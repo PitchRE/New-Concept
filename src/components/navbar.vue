@@ -5,7 +5,7 @@
 
     <vk-navbar class="navbar">
       <vk-navbar-logo>
-        <img src="https://stolarniegalicyjskie.pl/images/logo.png" />
+        <a href="/"><img src="https://stolarniegalicyjskie.pl/images/logo.png" /></a>
       </vk-navbar-logo>
     
       <vk-navbar-nav slot="right" >
@@ -20,6 +20,7 @@
             <vk-nav-item title="Sofy"></vk-nav-item>
           </vk-navbar-nav-dropdown-nav>
         </vk-navbar-nav-dropdown>
+               <vk-navbar-nav-item title="Wizualizacje"></vk-navbar-nav-item>
         <vk-navbar-nav-item title="Kontakt"></vk-navbar-nav-item>
       </vk-navbar-nav>
  

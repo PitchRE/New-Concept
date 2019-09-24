@@ -1,7 +1,7 @@
 <template>
 
   <footer class="footer"> 
- &#x24B8; 2019 | Kuchnie Plus    
+ &#x24B8; 2019 | NewConcept    
 
   
   </footer>

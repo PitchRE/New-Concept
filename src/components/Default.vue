@@ -22,7 +22,7 @@
               <vk-card-title><font-awesome-icon icon="address-card" /> Kontakt</vk-card-title>
               <p>Zapraszamy do kontaktu z nami! Chętnie odpowiemy na pytania lub przygotujemy wycenę. Zachęcamy również do wizyty w naszym krakowskim showroomie, gdzie zaprezentujemy nasze niektóre realizacje.</p>
                
-               <span><a style="color: green" href="#">Formularz kontaktowy</a></span> <br>
+               <span><a style="color: green" href="#"><router-link to="contact">Formularz kontaktowy</router-link></a></span> <br>
          <font-awesome-icon   icon="phone" />  <span  >&nbsp;48+ 127132356</span>
             </vk-card>
           </div>

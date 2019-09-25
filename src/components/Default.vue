@@ -5,7 +5,7 @@
 
       <div class="uk-margin-large-top">
         <vk-grid gutter="small" matched class="uk-child-width-1-3@m uk-animation-fade">
-          <div data-aos="fade-up-right">
+          <div data-aos="zoom-in-up">
             <vk-card class="uk-card-hover">
               <vk-card-title>
                 <font-awesome-icon icon="home" />&nbsp; O firmie
@@ -21,7 +21,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </vk-card>
           </div>
-          <div data-aos="fade-up-left">
+          <div data-aos="zoom-in-up">
             <vk-card class="uk-card-hover">
               <vk-card-title>
                 <font-awesome-icon icon="address-card" />&nbsp; Kontakt
@@ -30,7 +30,7 @@
 
               <span>
                 <a style="color: green" href="#">
-                  <router-link to="contact">Formularz kontaktowy</router-link>
+                  <router-link to="Kontakt">Formularz kontaktowy</router-link>
                 </a>
               </span>
               <br />
@@ -55,19 +55,14 @@
 
     <div class="bgimg-2">
       <div class="caption">
-        <div data-aos="zoom-in-left">
-          <span
-            class="border"
-            style="background-color:transparent;font-size:25px;color: black;"
-          >Historia</span>
-        </div>
+        <div data-aos="zoom-in-up"></div>
       </div>
     </div>
 
     <div
       style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;"
     >
-      <div data-aos="fade-up-right">
+      <div data-aos="zoom-in-up">
         <h3 style="text-align:center;">OFERTA</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae felis sed ipsum dictum aliquam. Nullam ut lorem nulla. In ornare iaculis enim. Pellentesque ac quam leo. Donec tincidunt consectetur maximus. Sed vel sapien faucibus, rutrum tortor nec, pulvinar purus. Nullam hendrerit eu augue ac tincidunt. Vestibulum hendrerit lectus nec enim rhoncus pharetra. Pellentesque id fringilla metus. Donec id justo ac nisi sollicitudin malesuada eu et ante. Aenean rhoncus magna tortor, ac viverra ipsum pretium malesuada.</p>
       </div>
@@ -114,7 +109,6 @@ html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
-.bgimg-1,
 .bgimg-2,
 .bgimg-3 {
   position: relative;
@@ -123,20 +117,13 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bgimg-1 {
-  background-image: url("https://images.pexels.com/photos/584399/living-room-couch-interior-room-584399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  min-height: 100%;
-}
+
 .bgimg-2 {
-  background-image: url("https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("../../static/images/IMG_20190131_125020.jpg");
   min-height: 400px;
 }
 .bgimg-3 {
-  background-image: url("https://images.pexels.com/photos/1015568/pexels-photo-1015568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  min-height: 400px;
-}
-.bgimg-4 {
-  background-image: url("/images/wendy5.webp");
+  background-image: url("../../static/images/IMG_20190814_105259.jpg");
   min-height: 400px;
 }
 

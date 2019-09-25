@@ -8,15 +8,8 @@
       </vk-navbar-logo>
 
       <vk-navbar-nav slot="right">
-        <vk-navbar-nav-dropdown title="Portfolio">
-          <vk-navbar-nav-dropdown-nav>
-            <vk-nav-item title="Kuchnie"></vk-nav-item>
-            <vk-nav-item title="Meble"></vk-nav-item>
-            <vk-nav-item title="Sofy"></vk-nav-item>
-          </vk-navbar-nav-dropdown-nav>
-        </vk-navbar-nav-dropdown>
+        <vk-navbar-nav-item @click="portfolioRedirect" title="Portfolio"></vk-navbar-nav-item>
         <vk-navbar-nav-item @click="visualisationsRedirect" title="Wizualizacje"></vk-navbar-nav-item>
-
         <vk-navbar-nav-item @click="contactRedirect" title="Kontakt"></vk-navbar-nav-item>
       </vk-navbar-nav>
     </vk-navbar>
@@ -33,6 +26,10 @@ export default {
     visualisationsRedirect: function() {
       if (this.$router.currentRoute.name == "Wizualizacje") return;
       this.$router.push({ path: "/Wizualizacje" });
+    },
+    portfolioRedirect: function() {
+      if (this.$router.currentRoute.name == "Portfolio") return;
+      this.$router.push({ path: "/Portfolio" });
     }
   }
 };

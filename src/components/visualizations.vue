@@ -30,8 +30,7 @@
                     />
                   </div>
                   <div>
-                    <vk-card-title>Media Top</vk-card-title>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <p>A02</p>
                   </div>
                 </vk-card>
               </div>

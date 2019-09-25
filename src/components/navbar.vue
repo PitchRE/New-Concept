@@ -3,12 +3,12 @@
     <vk-navbar class="navbar">
       <vk-navbar-logo>
         <router-link to="/">
-          <img src="https://stolarniegalicyjskie.pl/images/logo.png" />
+          <img id="logo" src="https://stolarniegalicyjskie.pl/images/logo.png" />
         </router-link>
       </vk-navbar-logo>
 
       <vk-navbar-nav slot="right">
-        <vk-navbar-nav-item @click="defaultRedirect" title="Home"></vk-navbar-nav-item>
+        <vk-navbar-nav-item id="start" @click="defaultRedirect" title="Home"></vk-navbar-nav-item>
         <vk-navbar-nav-item @click="portfolioRedirect" title="Portfolio"></vk-navbar-nav-item>
         <vk-navbar-nav-item @click="visualisationsRedirect" title="Wizualizacje"></vk-navbar-nav-item>
         <vk-navbar-nav-item @click="contactRedirect" title="Kontakt"></vk-navbar-nav-item>
@@ -43,6 +43,18 @@ export default {
 <style scoped>
 .navbar {
   background-color: rgba(255, 255, 255, 0.658) !important;
+}
+
+@media only screen and (min-width: 767px) {
+  #start {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #logo {
+    display: none;
+  }
 }
 </style>
 

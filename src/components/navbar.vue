@@ -8,6 +8,7 @@
       </vk-navbar-logo>
 
       <vk-navbar-nav slot="right">
+        <vk-navbar-nav-item @click="defaultRedirect" title="Home"></vk-navbar-nav-item>
         <vk-navbar-nav-item @click="portfolioRedirect" title="Portfolio"></vk-navbar-nav-item>
         <vk-navbar-nav-item @click="visualisationsRedirect" title="Wizualizacje"></vk-navbar-nav-item>
         <vk-navbar-nav-item @click="contactRedirect" title="Kontakt"></vk-navbar-nav-item>
@@ -30,6 +31,10 @@ export default {
     portfolioRedirect: function() {
       if (this.$router.currentRoute.name == "Portfolio") return;
       this.$router.push({ path: "/Portfolio" });
+    },
+    defaultRedirect: function() {
+      if (this.$router.currentRoute.name == "Home") return;
+      this.$router.push({ path: "/" });
     }
   }
 };

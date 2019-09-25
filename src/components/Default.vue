@@ -123,11 +123,11 @@ html {
 }
 
 .bgimg-2 {
-  background-image: url("../../static/images/IMG_20190131_125020.jpg");
+  background-image: url("/img/IMG_20190131_125020.jpg");
   min-height: 400px;
 }
 .bgimg-3 {
-  background-image: url("../../static/images/IMG_20190814_105259.jpg");
+  background-image: url("/img/IMG_20190814_105259.jpg");
   min-height: 400px;
 }
 

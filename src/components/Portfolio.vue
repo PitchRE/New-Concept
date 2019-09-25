@@ -49,9 +49,10 @@ export default {
   data: function() {
     return {
       kuchnie: [
-        "/img/received_1027644213992520.490ccf0c.jpeg",
-        "/img/received_1027644290659179.21ba6a8e.jpeg",
-        "/img/20161119_115925.0ed1a804.jpg",
+        "/img/received_1027644290659179.jpeg",
+        "/img/20161119_115925.jpg",
+        "/img/received_1027644213992520.jpeg",
+        "/img/IMG_20190131_144343.jpg",
         "kuchnie/20180309_104832.jpg",
         "kuchnie/20180309_104858.jpg",
         "kuchnie/20180309_104908.jpg",

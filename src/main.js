@@ -6,7 +6,8 @@ import Vuikit from "vuikit";
 import VuikitIcons from "@vuikit/icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import {
   faHome,
   faBriefcase,
@@ -42,6 +43,9 @@ const router = new VueRouter({
 
 new Vue({
   render: h => h(App),
+  created() {
+    AOS.init();
+  },
   VueRouter,
   router: router
 }).$mount("#app");

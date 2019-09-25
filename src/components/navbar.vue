@@ -15,7 +15,7 @@
             <vk-nav-item title="Sofy"></vk-nav-item>
           </vk-navbar-nav-dropdown-nav>
         </vk-navbar-nav-dropdown>
-        <vk-navbar-nav-item title="Wizualizacje"></vk-navbar-nav-item>
+        <vk-navbar-nav-item @click="visualisationsRedirect" title="Wizualizacje"></vk-navbar-nav-item>
 
         <vk-navbar-nav-item @click="contactRedirect" title="Kontakt"></vk-navbar-nav-item>
       </vk-navbar-nav>
@@ -29,6 +29,10 @@ export default {
     contactRedirect: function() {
       if (this.$router.currentRoute.name == "Kontakt") return;
       this.$router.push({ path: "/Kontakt" });
+    },
+    visualisationsRedirect: function() {
+      if (this.$router.currentRoute.name == "Wizualizacje") return;
+      this.$router.push({ path: "/Wizualizacje" });
     }
   }
 };

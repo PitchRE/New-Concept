@@ -15,12 +15,16 @@
           </div>
           <div>
             <vk-card class="uk-card-hover" data-aos="fade-down">
-              <vk-card-title>
-                <font-awesome-icon icon="briefcase" />&nbsp; Portfolio
-              </vk-card-title>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <router-link to="Portfolio" tag="div" style="cursor: pointer">
+                <vk-card-title>
+                  <font-awesome-icon icon="briefcase" />&nbsp; Portfolio
+                </vk-card-title>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </router-link>
             </vk-card>
           </div>
+
           <div data-aos="zoom-in-up">
             <vk-card class="uk-card-hover">
               <vk-card-title>

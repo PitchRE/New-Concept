@@ -2,7 +2,7 @@
   <div>
     <div class="uk-container">
       <vk-tabs align="center" class="uk-margin-large-top">
-        <vk-tabs-item data-aos="zoom-in-up" title="Kuchnie">
+        <vk-tabs-item title="Kuchnie">
           <gallery :images="kuchnie" :index="index" @close="index = null"></gallery>
           <div
             class="image"
@@ -14,7 +14,7 @@
 
           <!-- galery end kuchnie -->
         </vk-tabs-item>
-        <vk-tabs-item data-aos="zoom-in-up" title="Pokoje">
+        <vk-tabs-item title="Pokoje">
           <gallery :images="pokoje" :index="index" @close="index = null"></gallery>
           <div
             class="image"
@@ -24,7 +24,7 @@
             :style="{ backgroundImage: 'url(' + image + ')', width: '300px', height: '200px' }"
           ></div>
         </vk-tabs-item>
-        <vk-tabs-item data-aos="zoom-in-up" title="Łazienki">
+        <vk-tabs-item title="Łazienki">
           <gallery :images="lazienki" :index="index" @close="index = null"></gallery>
           <div
             class="image"

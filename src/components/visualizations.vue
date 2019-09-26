@@ -10,7 +10,7 @@
                   <vk-card class="uk-box-shadow-hover-xlarge">
                     <div slot="media-top">
                       <img
-                        src="https://images.pexels.com/photos/2956952/pexels-photo-2956952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        src="https://images.pexels.com/photos/2956952/pexels-photo-2956952.webp?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                         alt
                       />
                     </div>
@@ -25,7 +25,7 @@
                 <vk-card class="uk-box-shadow-hover-xlarge">
                   <div slot="media-top">
                     <img
-                      src="https://images.pexels.com/photos/2954888/pexels-photo-2954888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                      src="https://images.pexels.com/photos/2954888/pexels-photo-2954888.webp?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                       alt
                     />
                   </div>

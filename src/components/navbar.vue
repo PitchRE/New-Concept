@@ -3,14 +3,15 @@
     <vk-navbar class="navbar">
       <vk-navbar-logo>
         <router-link to="/">
-          <img id="logo" src="https://stolarniegalicyjskie.pl/images/logo.png" />
+
+          <h1 id="logo"  style='font-familt: artial'>New Concept</h1>
         </router-link>
       </vk-navbar-logo>
 
       <vk-navbar-nav slot="right">
         <vk-navbar-nav-item id="start" @click="defaultRedirect" title="Home"></vk-navbar-nav-item>
         <vk-navbar-nav-item @click="portfolioRedirect" title="Portfolio"></vk-navbar-nav-item>
-        <vk-navbar-nav-item @click="visualisationsRedirect" title="Wizualizacje"></vk-navbar-nav-item>
+        <!-- <vk-navbar-nav-item @click="visualisationsRedirect" title="Wizualizacje"></vk-navbar-nav-item> -->
         <vk-navbar-nav-item @click="contactRedirect" title="Kontakt"></vk-navbar-nav-item>
       </vk-navbar-nav>
     </vk-navbar>
@@ -54,7 +55,15 @@ export default {
 @media only screen and (max-width: 767px) {
   #logo {
     display: none;
+  
   }
 }
+
+#logo{
+     font-family: "Times New Roman", Times, serif;
+}
+
+
+
 </style>
 

@@ -9,19 +9,19 @@
     :controlsVisible="false"
   >
     <slide :index="0">
-      <img src="/img/IMG_20190131_144343.webp" />
+      <img  src="/img/IMG_20190131_144343.webp" img="Zdjęcie z portfolio" />
     </slide>
     <slide :index="1">
-      <img src="/img/received_1027644213992520.webp" />
+      <img src="/img/received_1027644213992520.webp" img="Zdjęcie z portfolio" />
     </slide>
     <slide :index="2">
-      <img src="/img/20161119_115925.webp" />
+      <img src="/img/20161119_115925.webp" img="Zdjęcie z portfolio" />
     </slide>
     <slide :index="3">
-      <img src="/img/received_1027644290659179.webp" />
+      <img src="/img/received_1027644290659179.webp" img="Zdjęcie z portfolio" />
     </slide>
     <slide :index="4">
-      <img src="/img/received_1027644323992509.webp" />
+      <img src="/img/received_1027644323992509.webp" img="Zdjęcie z portfolio" />
     </slide>
   </carousel-3d>
 </template>

@@ -10,7 +10,10 @@
               <vk-card-title>
                 <font-awesome-icon icon="home" />&nbsp; O firmie
               </vk-card-title>
-              <p>New Concept - jesteśmy firmą z wielopokoleniowym doświadczeniem, z którym łączymy perfekcję wykonania, dbałość o szczegóły oraz zaangażowanie. Na co dzień realizujemy najbardziej wciągające projekty, stosując przy tym najnowsze rozwiązania technologiczne.</p>
+              <p>
+                New Concept - Meble są nasza pasja, wykonujemy je z największą starannością i dbałością o najmniejsze detale.
+                Estetyczność i wszechstronność produkcji , pozwala nam na zaspokojenie każdej potrzeby klienta.
+              </p>
             </vk-card>
           </div>
           <div>
@@ -20,7 +23,7 @@
                   <font-awesome-icon icon="briefcase" />&nbsp; Portfolio
                 </vk-card-title>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Zapraszamy do zapoznania się z szerokim portfolio naszej firmy. Znajdziecie tam Państwo poprzednio wykonane projekty zlecone przez naszych klientów.</p>
               </router-link>
             </vk-card>
           </div>
@@ -30,7 +33,7 @@
               <vk-card-title>
                 <font-awesome-icon icon="address-card" />&nbsp; Kontakt
               </vk-card-title>
-              <p>Zapraszamy do kontaktu z nami! Chętnie odpowiemy na pytania lub przygotujemy wycenę. Zachęcamy również do wizyty w naszym krakowskim showroomie, gdzie zaprezentujemy nasze niektóre realizacje.</p>
+              <p>Zapraszamy do kontaktu z nami.Chętnie odpowiemy na wszelkie pytania i przygotujemy ewentualna wycenę.</p>
 
               <span>
                 <a style="color: green" href="#">
@@ -53,7 +56,7 @@
     >
       <div data-aos="fade-up-right">
         <h3 style="text-align:center;">New Concept</h3>
-        <p>New Concept - jesteśmy firmą z wielopokoleniowym doświadczeniem, z którym łączymy perfekcję wykonania, dbałość o szczegóły oraz zaangażowanie. Na co dzień realizujemy najbardziej wciągające projekty, stosując przy tym najnowsze rozwiązania technologiczne.</p>
+        <p></p>
       </div>
     </div>
 
@@ -67,8 +70,7 @@
       style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;"
     >
       <div data-aos="zoom-in-up">
-        <h3 style="text-align:center;">OFERTA</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae felis sed ipsum dictum aliquam. Nullam ut lorem nulla. In ornare iaculis enim. Pellentesque ac quam leo. Donec tincidunt consectetur maximus. Sed vel sapien faucibus, rutrum tortor nec, pulvinar purus. Nullam hendrerit eu augue ac tincidunt. Vestibulum hendrerit lectus nec enim rhoncus pharetra. Pellentesque id fringilla metus. Donec id justo ac nisi sollicitudin malesuada eu et ante. Aenean rhoncus magna tortor, ac viverra ipsum pretium malesuada.</p>
+        <h3 style="text-align:center;"></h3>
       </div>
     </div>
 

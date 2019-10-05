@@ -12,25 +12,25 @@
           <b>
             <p>Adres:</p>
           </b>
-          <font-awesome-icon icon="map-marked-alt" />&nbsp; Piekary, 32-100 Proszowice
+          <font-awesome-icon icon="map-marked-alt" />&nbsp; Piekary, Proszowice, Małopolska
           <br />
           <br />
           <b>
             <p>Tel:</p>
           </b>
           <font-awesome-icon icon="phone" />
-          <span>&nbsp;48+ 127132356</span>
+          <span>&nbsp; 787131170</span>
 
           <br />
           <br />
           <b>
             <p>Email:</p>
           </b>
-          <font-awesome-icon icon="envelope" />&nbsp; biuro@example.com
+          <font-awesome-icon icon="envelope" />&nbsp; biuro@meble-newconcept.pl
           <br />
           <br />
         </div>
-        <div class="uk-width-1-2 uk-animation-fade">
+        <!-- <div class="uk-width-1-2 uk-animation-fade">
           <form>
             <fieldset action="/action.php" method="POST" class="uk-fieldset">
               <legend class="uk-legend">Formularz Kontaktowy</legend>
@@ -54,7 +54,7 @@
               <input class="uk-button uk-button-default" type="submit" value="Wyślij" />
             </fieldset>
           </form>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>

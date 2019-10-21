@@ -42,7 +42,7 @@
               </span>
               <br />
               <font-awesome-icon icon="phone" />
-              <span>&nbsp;48+ 127132356</span>
+              <span>&nbsp;787131170</span>
             </vk-card>
           </div>
         </vk-grid>
